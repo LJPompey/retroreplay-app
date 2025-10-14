@@ -1,0 +1,67 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# C extensions
+*.so
+
+# =====================
+# Virtual Environments
+# =====================
+# (Don't upload local Python environments)
+retro_replay_env/
+venv/
+.env/
+
+# =====================
+# Environment & Secrets
+# =====================
+# (For .env files that contain credentials, tokens, etc.)
+.env
+.env.*
+
+# =====================
+# Databases & Data Files
+# =====================
+# (Keep your local database private)
+users.db
+*.sqlite3
+*.db
+
+# =====================
+# Logs & Temp Files
+# =====================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# =====================
+# IDE / Editor Files
+# =====================
+# VS Code
+.vscode/
+.history/
+
+# JetBrains / PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =====================
+# Git
+# =====================
+# Ignore any merge or diff artifacts
+*.orig
+*.rej
